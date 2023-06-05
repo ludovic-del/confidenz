@@ -7,9 +7,10 @@ import {HttpClientModule} from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 
+
 @NgModule({
   declarations: [
-    AppComponent,    
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -18,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
     HttpClientModule,
     RouterModule,
     AppRoutingModule
+    
   ],
   providers: [
   ],
